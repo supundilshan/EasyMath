@@ -1,0 +1,15 @@
+Every < form > element should carry at least two attributes:
+action 
+ method
+action : The action attribute indicates what has to be done to the submitted data (instructions should be given using server side scripting language like PHP ASP etc).
+E.g. <form action=”script/login.php” >
+ login.php is the file consisting instructions written in PHP located in the script folder
+method Attribute
+Form data can be sent to the server in two ways an HTTP method :
+ get method, which sends data as part of the URL(visible to everyone)
+ post method, which hides data in something known as the HTTP headers(variables are not displayed in the URL. sending passwords or other sensitive information.)
+id Attribute
+id attribute allows you to uniquely identify the < form > element within a page
+Style sheets and scripts  use this id attribute to identify the form
+Good practice : start with frm and relevant name
+ eg. frmLogin or frmSearch 
